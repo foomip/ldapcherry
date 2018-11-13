@@ -23,6 +23,11 @@ var/
 *.egg
 .*.swp
 .eggs/
+tmp/etc/*
+!tmp/etc/.keep
+tmp/usr/share/*
+!tmp/usr/share/.keep
+.envrc
 
 # Installer logs
 pip-log.txt
